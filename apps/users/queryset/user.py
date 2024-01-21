@@ -1,6 +1,7 @@
-from apps.core.queryset.base import BaseManager
 from django.contrib.auth.base_user import BaseUserManager
 from django.utils.translation import gettext_lazy as _
+
+from apps.core.queryset.base import BaseManager
 
 
 class UserManager(BaseUserManager, BaseManager):
